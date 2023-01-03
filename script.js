@@ -11,3 +11,18 @@ if(count == 2){
 } else{
   console.log(n+' '+'is not a prime number');
 }
+
+
+let str = 'racecar';
+let revStr = '';
+for(let i=str.length-1; i<0; i--){
+  revStr+=str[i];
+}
+console.log(revStr);
+if(revStr == str){
+  console.log("Palindrom");
+} else {
+  console.log("Not palindrome")
+}
+
+
